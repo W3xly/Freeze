@@ -370,6 +370,8 @@ class FreezeViewModel: ObservableObject {
     }
 }
 
+// MARK: Onboarding
+
 extension FreezeViewModel {
     func nextOnboardingStep() {
         onboardingIndex += 1
@@ -396,12 +398,5 @@ extension FreezeViewModel {
         default:
             break
         }
-    }
-}
-
-
-struct FreezeViewModel_Prew: PreviewProvider {
-    static var previews: some View {
-        FreezeView()
     }
 }
